@@ -3,6 +3,18 @@ body{
     padding: 0;
 }
 
+.section-margin{
+    padding: 0 150px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+
 .heads{
     background-image: url(../images/banner/banner1.png);
     background-size: cover;
@@ -12,8 +24,10 @@ body{
 }
 
 .hero-section{
-    margin: 0;
-    width: 50%;
+    /* margin: 0; */
+    width: 30%;
+    text-align: right;
+    margin: 150px 0;
     
 }
 
@@ -22,20 +36,52 @@ body{
     font-weight: 700;
     color: #151414;
     text-align: right;
+    margin: 0;
 
 }
 
 .paragraph{
     font-size: 16px;
     color: #444343;
+    margin: 24px 0 32px 0;
 }
 
 .btn{
     background-color: #F15B22;
     color: white;
-    text-align: right;
     padding: 20px 25px;
     border-radius: 5px;
     border: none;
     font-size: 20px;
 }
+
+/* Failures Section  */
+.failures-section{
+    width: 70%;
+}
+
+.failures-content{
+    margin-top: 250Px;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+}
+
+.list li{
+    margin-bottom: 8px;
+}
+
+.person-image{
+    filter: drop-shadow(20px 20px 20px #4242429c);
+}
+
+.second-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+
+
