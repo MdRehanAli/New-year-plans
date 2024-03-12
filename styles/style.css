@@ -95,4 +95,29 @@ body{
 }
 
 
+/* Positive mindset Section */
+.mindset{
+    padding: 60px;
+    background-image: url('/images/gradient3.png'), url('/images/watch.png');
+    background-position: center, center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.mindset h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#callNowButton{
+    padding: 20px 35px;
+    color: #F15B22;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
