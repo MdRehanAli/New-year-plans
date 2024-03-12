@@ -90,6 +90,9 @@ body{
 }
 
 /* My Plans Section  */
+.my-plans{
+    margin: 100px 0;
+}
 .text-center{
     text-align: center;
 }
@@ -110,7 +113,7 @@ body{
     font-weight: 700;
 }
 
-#callNowButton{
+.latestButton{
     padding: 20px 35px;
     color: #F15B22;
     background-color: white;
@@ -118,6 +121,30 @@ body{
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer section  */
+footer{
+    margin-top: 100px;
+    padding: 100px 150px;
+    background-color: #151414;
+}
+
+.footer-content{
+    color: white;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+footer input{
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
 }
 
 
